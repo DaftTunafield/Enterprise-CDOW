@@ -24,7 +24,17 @@ namespace Enterprise_CDOW
         {
             InitializeComponent();
 
-            There
+            
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

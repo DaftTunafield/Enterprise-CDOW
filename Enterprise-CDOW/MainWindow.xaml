@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Enterprise_CDOW"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="CDOW Pen is" Height="580.4" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="32*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="label" Content="Name of Article 1:" HorizontalAlignment="Left" Margin="22,25,0,0" VerticalAlignment="Top" Height="28" Width="138" FontSize="16" FontFamily="PenultimateLight" FontWeight="Bold"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="19" Margin="165,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" TextChanged="textBox_TextChanged"/>
+        <Label x:Name="label1" Content="Fabric 1:" HorizontalAlignment="Left" Margin="22,55,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="PenultimateLight" Height="28" Width="98"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="19" Margin="165,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" TextChanged="textBox1_TextChanged"/>
+        <Label x:Name="label2" Content="Fabric 2:" HorizontalAlignment="Left" Margin="22,85,0,0" VerticalAlignment="Top" Height="27" Width="80" FontSize="16" FontFamily="PenultimateLight"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="19" Margin="165,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231"/>
+        <Label x:Name="label3" Content="Fabric 3:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="27" Width="91" Margin="22,115,0,0" FontSize="16" FontFamily="PenultimateLight"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="19" Margin="165,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="231"/>
+
     </Grid>
 </Window>

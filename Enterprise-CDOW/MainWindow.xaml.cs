@@ -270,7 +270,7 @@ namespace Enterprise_CDOW
                 int a3 = 75;
             }
 
-            string percent11 = fabricsx1x3.SelectedValue.ToString();
+            string percent11 = percentbox1x3.Text.ToString();
         }
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
